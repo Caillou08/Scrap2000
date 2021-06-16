@@ -1,0 +1,4 @@
+youtube-dl
+python-dotenv
+discord.py
+art
