@@ -1,4 +1,6 @@
 youtube-dl
+deemix
 python-dotenv
 discord.py
 art
+pydrive
