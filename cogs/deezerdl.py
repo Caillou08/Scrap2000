@@ -35,7 +35,7 @@ class deezerdl(commands.Cog):
                         'role': 'reader'})
             embed.add_field(name="Téléchargement terminé !", value=f"Format : {musicformat}", inline=False)
             embed.add_field(name="Lien :", value=gfile['alternateLink'], inline=False)
-            embed.set_footer(text=f"Commande effectuée par {ctx.author}, ce lien sera supprimer dans 5 minutes", icon_url=ctx.author.avatar_url)
+            embed.set_footer(text=f"Commande effectuée par {ctx.author}, ce lien sera supprimer dans 5 minutes.", icon_url=ctx.author.avatar_url)
             os.remove(f"./DeezerDL.{musicformat}")
             await ctx.send(embed=embed)
             await asyncio.sleep(300)
